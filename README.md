@@ -47,7 +47,7 @@ Result::Result()                 //constructor
     average =0.0;
     cho=10;
     mx=0;
-    del=size+4;
+    del=size+4;                 //This size is initialize increment by 4 because to suit the size of array when the insertion is reached limit of 3
 }
 
 Result::~Result()               //destructor
