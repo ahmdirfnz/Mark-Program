@@ -19,6 +19,7 @@ Result::Result()                 //constructor
 
 Result::~Result()               //destructor
 {
+    delete [] marks;
 
     cout<<"\n\n\n\t -----------------------------------------------";
     cout<<"\n\t|                                               |";
