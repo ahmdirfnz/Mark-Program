@@ -99,7 +99,7 @@ void Result::display(){
     cout<<endl;
 }
 
-void Result::insertion(){
+void Result::insertion(){           //This function make the insertion of the marks until it reached limit of insertion
 
     if(mx >= 3){
         cout<<"\n\t -----------------------------------------------";
@@ -139,7 +139,7 @@ void Result::insertion(){
     }
 }
 
-void Result::deletion(){
+void Result::deletion(){                    //This function make deletion of marks until it reached the limit of deletion
     if(size<=0){
         cout<<"\n\t -----------------------------------------------";
         cout<<"\n\t|                                               |";
@@ -170,7 +170,7 @@ void Result::deletion(){
     }
 }
 
-void Result::menu(){
+void Result::menu(){                                    //This function is to make a choice for the user to  choose option for the program they want
 
     //system("clear");
     while (cho!=0)
