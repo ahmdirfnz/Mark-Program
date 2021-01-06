@@ -140,7 +140,7 @@ void Result::insertion(){           //This function make the insertion of the ma
 }
 
 void Result::deletion(){                    //This function make deletion of marks until it reached the limit of deletion
-    if(size<=0){
+    if(size<=0){    
         cout<<"\n\t -----------------------------------------------";
         cout<<"\n\t|                                               |";
         cout<< "\n\t|\t There are no marks. Insert first. \t|";
@@ -159,7 +159,7 @@ void Result::deletion(){                    //This function make deletion of mar
         cin>> del; //input the index value to delete the mark.
         del-=1; //get the index number.
         cout<<"\n\t----- "<<marks[del]<<" deleted successfully from the list. -----";
-        if (del < size)
+        if (del < size)                                                                 //update algorithm for deletion     
         {
             for(int i=del; i<size; i++){
             marks[i]=marks[i+1];
