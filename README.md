@@ -82,7 +82,7 @@ void Result::calc_average(){                                        //This funct
     average= total/size;
 }
 
-void Result::display(){
+void Result::display(){                                             //This function is to display the marks,total and average of the marks   
     cout<<"\n\n\t\t -------------------------";
     cout<<"\n\t\t|           Marks         |";
     cout<<"\n\t\t|-------------------------|";
