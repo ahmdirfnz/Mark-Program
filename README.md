@@ -159,13 +159,16 @@ void Result::deletion(){                    //This function make deletion of mar
         cin>> del; //input the index value to delete the mark.
         del-=1; //get the index number.
         cout<<"\n\t----- "<<marks[del]<<" deleted successfully from the list. -----";
-        for(int i=del; i<size; i++){
+        if (del < size)
+        {
+            for(int i=del; i<size; i++){
             marks[i]=marks[i+1];
         }
-
+        
         total=average=0;
         calc_total();
         calc_average();
+        }
 
     }
 }
