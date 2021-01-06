@@ -26,7 +26,8 @@ public:
 
 #endif // MARKS_H_INCLUDED
 ```
-***class Result is created in this file which contain function and variable definition***
+***The class Result is created in this file which contain function and variable definition***
+
 
 **Marks.cpp**
 ```
@@ -210,6 +211,7 @@ void Result::menu(){
 ```
 ***Make the program inside the function so that it can be used in main class***
 
+
 **main.cpp**
 ```
 #include "Marks.h"
@@ -224,5 +226,4 @@ int main(){
 ```
 ***This main class call the function inside Result class by using the object which is 'result'.
    The object is created by declaration of class Result.
-   Marks.h file is included to make sure that the Result can be called inside main function.
-***
+   Marks.h file is included to make sure that the Result can be called inside main function.***
