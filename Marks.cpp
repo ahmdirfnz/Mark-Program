@@ -17,7 +17,7 @@ Result::Result()                 //constructor
     del=size+4;
 }
 
-Result::~Result()               //distructor
+Result::~Result()               //destructor
 {
 
     cout<<"\n\n\n\t -----------------------------------------------";
