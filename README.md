@@ -60,7 +60,7 @@ Result::~Result()               //destructor
     cout<<"\n\t|_______________________________________________|\n\n\n\n";
 }
 
-void Result::input_result(){
+void Result::input_result(){                                         //This function is to make the user to input the marks
     cout<<"\n\t -----------------------------------------------";
     cout<<"\n\t|                                               |";
     cout<< "\n\t|\tPlease enter "<<size<<" marks respectively.\t|";
@@ -72,13 +72,13 @@ void Result::input_result(){
     cout<<"\n\t\t\t-------x-------\n";
 }
 
-void Result::calc_total(){
+void Result::calc_total(){                                           //This function is to calculate the current total of marks
     for(int i=0; i<size; i++){
         total+=marks[i];
     }
 }
 
-void Result::calc_average(){
+void Result::calc_average(){                                        //This function is to calculate average based on the total marks
     average= total/size;
 }
 
